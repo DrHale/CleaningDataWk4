@@ -77,5 +77,5 @@ rm(keepcols)
 # Clean data in tidydata
 # Summary of tidaydata in tidysummary
 
-write.table(tidydata,"tidydata.txt")
-write.table(tidysummary,"tidysummary.txt")
+write.table(tidydata,"tidydata.txt",row.name=FALSE)
+write.table(tidysummary,"tidysummary.txt",row.name=FALSE)
